@@ -14,8 +14,8 @@ class Body3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text('Homework'),
+    return const Align(
+      alignment: Alignment.bottomLeft, child: Text('Tashkent'),
     );
   }
 }
